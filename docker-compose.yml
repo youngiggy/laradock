@@ -7,8 +7,9 @@ services:
     applications:
         image: tianon/true
         volumes:
-            - ../:/var/www
-#            - ../sample/:/var/www/sample
+#            - ../:/var/www
+            - ../Code/laravel-todolog/:/var/www/laravel-todolog
+            - ../Code/oldlara/:/var/www/oldlara
 
 ### Workspace Utilities Container ###########################
 
